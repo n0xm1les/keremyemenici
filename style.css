@@ -1,0 +1,197 @@
+nav#navbar {
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 6;
+}
+
+ul#nav-menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul#nav-menu-list li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+a.nav-button {
+    font-family: 'Marhey', cursive;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 20px 1px 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.nav-button:hover, a.nav-button.active {
+    background-color: #ffffff;
+    color: #ACA8B6;
+    text-shadow: none;
+    transition: background-color 250ms;
+}
+
+/* Header Section */
+
+header {
+    position: relative;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+header img#background {
+    z-index: 0;
+}
+
+header img#clouds {
+    z-index: 1;
+}
+
+header img#back-mountains {
+    z-index: 2;
+}
+
+header img#middle-mountains {
+    z-index: 3;
+}
+
+header img#front-mountains {
+    z-index: 5;
+}
+
+header img#trees {
+    z-index: 7;
+}
+
+header div.centered#first-see {
+    z-index: 4;
+    color: #ffffff;
+    width: 100%;
+    transform: translateY(-80px);
+    position: relative;
+}
+
+header div.centered div#texts {
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3#greeting {
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
+h1.brand {
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+    line-height: 4.6rem;
+}
+
+h3#job-title {
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 25px;
+    text-align: center;
+}
+
+div#social-media-icons-header {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+div#social-media-icons-header a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+div#social-media-icons-header>a:hover div.back-card {
+    top: -17px; left: 15px;
+    transform: rotate(-5deg);
+}
+div#social-media-icons-header>a:hover>div.bi {
+    transform: rotate(5deg);
+}
+
+div#social-media-icons-header>a>div.bi {
+    width: 65px;
+    height: 65px;
+    color: white;
+    font-size: 2rem;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: transform 500ms;
+}
+
+
+div#social-media-icons-header div.back-card {
+    position: absolute;
+    top: -7px; left: 5px;
+    width: 65px;
+    height: 65px;
+    content: ' ';
+    transform: rotate(-3deg);
+    border-radius: 10px;
+    z-index: -1;
+    transition: transform, top, left, 500ms;
+}
+
+div#social-media-icons-header a#instagram div.back-card {
+    background-color: rgb(255, 0, 0);
+}
+div#social-media-icons-header a#whatsapp div.back-card {
+    background-color: rgb(0, 165, 0);
+}
+div#social-media-icons-header a#email div.back-card {
+    background-color: rgb(187, 0, 187);
+}
+
+div#social-media-icons-header a span {
+    position: relative;
+    color: #000000;
+    font-size: 1.05rem;
+    border-radius: 0 25px 25px 0;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    z-index: -2;
+}
+
+
+
+main {
+    width: 100%;
+    height: 1800px;
+}

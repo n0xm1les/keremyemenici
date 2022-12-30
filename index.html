@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
     <!-- Meta Tags... -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <title>Kerem Yemenici</title>
 
     <!-- Fonts -->
-    <!-- https://fonts.google.com/share?selection.family=Marhey:wght@500%7CPacifico%7CPoppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400%7CRoboto%20Mono:ital,wght@1,300 -->
+    <!-- https://fonts.google.com/share?selection.family=Marhey:wght@500%7CPacifico%7CPoppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400%7CRoboto%20Mono:ital,wght@1,300 -->
     <!-- 
         Which font will be used where:
         Pacifico: on hero section to write "Kerem Yemenici"
@@ -20,11 +20,10 @@
         Marhey(medium): Navbar button
         Poppins: standart
      -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@500&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Marhey:wght@500&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
      <link rel="stylesheet" href="/static/css/baseStyle.css">
      <link rel="stylesheet" href="style.css">
 
@@ -35,8 +34,37 @@
 </head>
 <body>
     
+    <header class="centered">
+        <nav id="navbar">
+            <ul id="nav-menu-list">
+                <li><a href="#" class="nav-button active">Home</a></li>
+                <li><a href="#" class="nav-button">Who Am I?</a></li>
+                <li><a href="#" class="nav-button">My Projects</a></li>
+                <li><a href="#" class="nav-button">What's Next?</a></li>
+            </ul>
+        </nav>
+        <img src="/static/img/landing/background.svg" id="background">
+        <img src="/static/img/landing/clouds.png" id="clouds">
+        <img src="/static/img/landing/back_mountains.svg" id="back-mountains">
+        <img src="/static/img/landing/middle_mountains.svg" id="middle-mountains">
+        <img src="/static/img/landing/front_mountains.svg" id="front-mountains">
+        <img src="/static/img/landing/trees.svg" id="trees">
+        <div class="centered" id="first-see">
+            <div id="texts">
+                <h3 id="greeting">Hey there! I'm</h3>
+                <h1 class="brand" id="header-brand">Kerem Yemenici</h1>
+                <h3 id="job-title">Full Stack Web Developer</h3>
+            </div>
+            <div class="centered" id="social-media-icons-header">
+                <a href="https://www.instagram.com/yemenicikerem/" target="_blank" rel="noopener noreferrer" id="instagram"><div class="bi bi-instagram"></div><div class="back-card"></div><span>@yemenicikerem</span></a>
+                <a href="https://wa.me/+905342171061" target="_blank" rel="noopener noreferrer" id="whatsapp"><div class="bi bi-whatsapp"></div><div class="back-card"></div><span>+90 534 217 10 61</span></a>
+                <a href="mailto:keremyemenici213@gmail.com" target="_blank" rel="noopener noreferrer" id="email"><div class="bi bi-envelope-at"></div><div class="back-card"></div><span>keremyemenici213@gmail.com</span></a>
+            </div>
+        </div>
+    </header>
 
-
+    <main>
+    </main>
     <!-- Scripts -->
     <script src="/static/js/baseScript.js"></script>
     <script src="script.js"></script>
