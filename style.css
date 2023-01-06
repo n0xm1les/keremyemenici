@@ -159,7 +159,7 @@ div#social-media-icons-header>a>div.bi {
 
 div#social-media-icons-header div.back-card {
     position: absolute;
-    top: -7px; left: 5px;
+    top: -7px; left: 6px;
     width: 65px;
     height: 65px;
     content: ' ';
@@ -194,4 +194,98 @@ div#social-media-icons-header a span {
 main {
     width: 100%;
     height: 1800px;
+    background-color: #050209;
+}
+
+section#about-me {
+    position: relative;
+    background: linear-gradient(180deg, #090715 0%, #0d0a1f 50%, #050209 100%);
+    width: 100%;
+    height: fit-content;
+    padding: 50px 100px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+h1#about-me-title {
+    /* position: absolute; */
+    height: min-content;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.9rem;
+    background: linear-gradient(180deg, #00467A 0%, #B59792 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+div#about-me-content {
+    margin-top: 75px;
+    flex-direction: row;
+}
+
+img#about-me-picture {
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(85, 85, 85, 0.25);
+}
+
+div#about-me-text {
+    width: 45%;
+    height: 100%;
+}
+
+div#about-me-text>p {
+    position: relative;
+    padding: 0 25px 0 30px;
+    color: #749FCD;
+    text-align: left;
+    /* margin: auto; */
+}
+
+div#about-me-text>p::after {
+    content: " ";
+    position: absolute;
+    right: 0px; top: 12%;
+    height: 75%;
+    border: 1px solid rgba(100, 100, 100);
+}
+
+div#skills-tools {
+    padding-left: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+h3.skills-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #749FCD;
+}
+
+ul.skill-list {
+    padding-left: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
+}
+
+ul.skill-list>li {
+    padding: 15px 20px;
+    margin: 0 15px 10px 0;
+    background: #0B235F;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #749FCD;
+}
+
+div#tools {
+    margin-top: 20px;
 }
