@@ -1,0 +1,3 @@
+# Welcome To The Best Portfolio! 😉
+### Hello and welcome. If you are reading this probably you want to review my projects. So you can go to my website to do it. Just click here -> [keremyemenici.com](http://www.keremyemenici.com "The Best Portfolio")
+### Uhh, why are you still here?🤨 Do you want to review my codes? Okay look above and click __"index.html"__. GitHub will show you my codes. That's all. I have explained all details on my website. See you! 🤗 And remember, this project is open source. You can use the codes as you wish.
