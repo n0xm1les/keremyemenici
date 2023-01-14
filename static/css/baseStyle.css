@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Center classes */
+.center-both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-y {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.center-x {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* flex direction classes */
+.flx-dir-row {
+    flex-direction: row;
+}
+.flx-dir-row-rev {
+    flex-direction: row-reverse;
+}
+.flx-dir-col {
+    flex-direction: column;
+}
+.flx-dir-col-rev {
+    flex-direction: column-reverse;
+}

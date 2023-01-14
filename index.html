@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
 
         <!-- Meta Tags... -->
@@ -11,6 +12,12 @@
         <meta name="robots" content="index,follow">
         <title>Kerem Yemenici</title>
     
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="static/img/favicon/site.webmanifest">
+
         <!-- Fonts -->
         <!-- https://fonts.google.com/share?selection.family=Marhey:wght@500%7CPacifico%7CPoppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400%7CRoboto%20Mono:ital,wght@1,300 -->
         <!-- 
@@ -35,6 +42,7 @@
             about-me-text-color: #749FCD
         -->
     </head>
+
 <body>
     
     <!-- Header section with parallax effect -->
@@ -43,7 +51,7 @@
         <!-- minimal navbar -->
         <nav id="navbar">
 
-            <ul id="nav-button-list">
+            <ul id="nav-button-list" class="center-both flx-dir-row">
                 <li><a href="#landing-page" class="nav-button active">Home</a></li>
                 <li><a href="#about-me" class="nav-button">Who Am I?</a></li>
                 <li><a href="#projects" class="nav-button">My Projects</a></li>
@@ -52,24 +60,24 @@
         </nav>
 
         <!-- Images for parallax effect -->
-        <img src="static/img/landing/background.svg" id="background">
-        <img src="static/img/landing/clouds.webp" id="clouds">
-        <img src="static/img/landing/back_mountains.svg" id="back-mountains">
-        <img src="static/img/landing/middle_mountains.svg" id="middle-mountains">
-        <img src="static/img/landing/front_mountains.svg" id="front-mountains">
-        <img src="static/img/landing/trees.svg" id="trees">
+        <img src="static/img/landing/background.svg" id="background" class="parallax" alt="Background Gradient image">
+        <img src="static/img/landing/clouds.webp" id="clouds" class="parallax" alt="Clouds">
+        <img src="static/img/landing/back_mountains.svg" id="back-mountains" class="parallax" alt="Back Mountains">
+        <img src="static/img/landing/middle_mountains.svg" id="middle-mountains" class="parallax" alt="Middle Mountains">
+        <img src="static/img/landing/front_mountains.svg" id="front-mountains" class="parallax" alt="Front Mountains">
+        <img src="static/img/landing/trees.svg" id="trees" class="parallax" alt="Trees">
 
         <!-- This is first see section. It includes my name and socaial media icons -->
-        <div class="centered-both" id="first-see">
+        <div class="center-both flx-dir-col" id="first-see">
 
             <div id="texts">
                 <h3 id="greeting">Hey there! I'm</h3>
                 <h1 class="brand" id="header-brand">Kerem Yemenici</h1>
                 <h3 id="job-title">Full Stack Web Developer</h3>
             </div>
-            
+
             <!-- Minimal social media icons -->
-            <div class="centered-y" id="social-media-icons-on-header">
+            <div class="center-y flx-dir-row" id="social-media-icons-on-header">
                 <a href="https://www.instagram.com/yemenicikerem/" target="_blank" rel="noopener noreferrer" id="instagram"><div class="bi bi-instagram"></div><div class="back-card"></div><span>@yemenicikerem</span></a>
                 <a href="https://wa.me/+905342171061" target="_blank" rel="noopener noreferrer" id="whatsapp"><div class="bi bi-whatsapp"></div><div class="back-card"></div><span>+90 534 217 10 61</span></a>
                 <a href="mailto:keremyemenici213@gmail.com" target="_blank" rel="noopener noreferrer" id="email"><div class="bi bi-envelope-at"></div><div class="back-card"></div><span>keremyemenici213@gmail.com</span></a>
@@ -80,7 +88,6 @@
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="static/js/baseScript.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
