@@ -7,6 +7,10 @@
     font-size: 18px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -31,14 +35,31 @@ body {
 
 /* flex direction classes */
 .flx-dir-row {
+    display: flex;
     flex-direction: row;
 }
 .flx-dir-row-rev {
+    display: flex;
     flex-direction: row-reverse;
 }
 .flx-dir-col {
+    display: flex;
     flex-direction: column;
 }
 .flx-dir-col-rev {
+    display: flex;
     flex-direction: column-reverse;
+}
+
+h1.section-title {
+    height: min-content;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.9rem;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
