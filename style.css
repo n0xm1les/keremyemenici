@@ -53,6 +53,25 @@ nav#navbar {
     z-index: 9;
 }
 
+#menu-open-button-mobile, #menu-close-button-mobile {
+    position: absolute;
+    top: 25px; 
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: none;
+}
+
+nav#navbar>#menu-open-button-mobile {
+    left: calc(100% + 25px);
+}
+
+nav#navbar>#menu-close-button-mobile {
+    right: 25px;
+}
+
 ul#nav-button-list li {
     list-style: none;
     margin-left: 20px;

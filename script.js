@@ -44,4 +44,22 @@ function main() {
     scrolling()
 };
 
+// Responsive mobile navbar expand collapse
+if ($(window).width() <= 600) {
+    $("#menu-open-button-mobile").click(function () {
+        $navbar = $("nav")
+        $navbar.css("transform", "translateX(0)")
+        $navbar.css("position", "fixed")
+        $("body").css("overflow-y", "hidden")
+    })
+    
+    $("#menu-close-button-mobile, .nav-button").click(function () {
+        $navbar = $("nav")
+        $navbar.css("transform", "translateX(-100%)")
+        $("body").css("overflow-y", "auto")
+        $navbar.css("position", "absolute")
+    })
+}
+
+
 main();

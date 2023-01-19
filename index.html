@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="stylesheet" href="static/css/baseStyle.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-responsive.css">
         
         <!-- Colors -->
         <!-- 
@@ -50,7 +51,8 @@
 
         <!-- minimal navbar -->
         <nav id="navbar">
-
+            <div class="bi bi-text-left" id="menu-open-button-mobile"></div>
+            <div class="bi bi-x-circle" id="menu-close-button-mobile"></div>
             <ul id="nav-button-list" class="center-both flx-dir-row">
                 <li><a href="#landing-page" class="nav-button active">Home</a></li>
                 <li><a href="#about-me" class="nav-button">Who Am I?</a></li>
@@ -190,6 +192,7 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
