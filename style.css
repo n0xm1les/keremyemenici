@@ -227,7 +227,7 @@ div#abilities {
     border-left: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-h3.abilities-title {
+h2.abilities-title {
     font-size: 1.2rem;
     font-weight: 700;
     background: #184e68;    
@@ -349,4 +349,100 @@ section#projects {
 
 .project:nth-of-type(2) .project-links>li {
     padding: 0 25px 0 0;
+}
+
+/* What's Next Section */
+
+section#whats-next {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background-image: url(static/img/whatsNext/background.svg);
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+#whats-next-card {
+    padding: 50px 40px;
+    width: fit-content;
+    max-width: 750px;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: 50px;
+    background: rgba(0, 16, 57, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid #ababab;
+    box-shadow: 2px 2px 5px rgba( 255, 255, 255, 0.18 );
+}
+
+ul#whats-next-buttons {
+    margin-top: 50px;
+    list-style: none;
+}
+
+ul#whats-next-buttons>li {
+    margin: 10px;
+    display: inline;
+    transition: transform 500ms;
+}
+
+.whats-next-button {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 20px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ababab;
+    box-shadow: 2px 2px 5px #353535;
+    transition: box-shadow 500ms;
+}
+
+ul#whats-next-buttons>li:hover {
+    transform: translateY(-10px);
+}
+
+ul#whats-next-buttons>li:hover a {
+    box-shadow: 0px 0px 10px #dedede;
+}
+
+ul#whats-next-buttons>li>#send-email {
+    background:linear-gradient(135deg, rgba(242, 213, 15, 0.75) 0%,rgba(218, 6, 65, 1) 100%);
+}
+
+ul#whats-next-buttons>li>#visit-fiverr {
+    background:linear-gradient(135deg, rgba(176, 48, 117, 0.75) 0%,rgba(68, 22, 186, 1) 100%);
+}
+
+/* Footer */
+footer {
+    height: 79px;
+    background-color: rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-top: -79px;
+}
+
+footer * {
+    color: #ececec;
+    font-size: 0.75rem;
+}
+
+span#freepik-image-attributions {
+    margin-top: auto;
+}
+
+span#freepik-image-attributions a {
+    display: block;
+}
+
+span#freepik-image-attributions a:not(:first-child) {
+    margin-top: 5px;
+}
+
+span#license {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid rgba( 255, 255, 255, 0.18 );
 }

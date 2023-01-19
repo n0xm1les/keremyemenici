@@ -22,12 +22,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-.center-y {
+.center-x {
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-.center-x {
+.center-y {
     display: flex;
     align-items: center;
     justify-content: flex-start;
