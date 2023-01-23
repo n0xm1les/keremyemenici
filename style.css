@@ -292,7 +292,7 @@ section#projects {
     margin: 50px 0;
 }
 
-.project-thumbnail, .project-thumbnail>img {
+.project-thumbnail {
     height: 100%;
     max-height: 300px;
     max-width: 600px;
